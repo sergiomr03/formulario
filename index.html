@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Envio de datos</title>
 </head>
 
 <body>
     <h1>Formulario</h1>
-    <form action="showview.html">
-        <input type="text">
+    <form action="view/mostrar.php" method="get">
+        <input type="text" name="nombre" placeholder="Inserte nombre...">
+        <input type="submit">
+        <input type="password" name="pwd" placeholder="Inserte contraseña...">
+        <input type="submit">
     </form>
 
 </body>
